@@ -11,4 +11,6 @@ class Solution(object):
             ans+=words[len(words)-1-i]
             if i!=len(words)-1:
                 ans+=' '
-        return ans    
+        return ans
+    
+    # or     return " ".join(reversed(s.split()))     
